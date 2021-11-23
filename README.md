@@ -6,15 +6,11 @@ Is your one stop app to get you latest and trending news in the world from The N
 
 In the project directory, you can run and install packages used:
 ### `yarn add material`
-### `yarn add jest`
-### `yarn add enzyme`
 
 ### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ## Available Components
 
@@ -28,4 +24,4 @@ You will also see any lint errors in the console.
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
-Employed `jest` and `enzyme` to curate the unit test
+Employed `` and `` to curate the unit test
