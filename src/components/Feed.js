@@ -14,7 +14,7 @@ const Feed = () => {
         const response = await fetch(`https://api.nytimes.com/svc/mostpopular/v2/viewed/${period}.json?api-key=${process.env.REACT_APP_ARTICLES_API_KEY}`)
 
         const articles = await response.json()
-        console.log(articles.results);
+        //console.log(articles.results);
         setAttribute(articles.results);
             
       } catch (error) {
