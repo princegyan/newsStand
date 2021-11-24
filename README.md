@@ -24,4 +24,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
-Employed `` and `` to curate the unit test
+Employed `jest` and `enzyme` to curate the unit test
