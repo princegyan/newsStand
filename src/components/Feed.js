@@ -4,7 +4,6 @@ import React from "react"
 
 const Feed = () => {
     const [articles, setAttribute] = useState([])
-    const [period] = useState([])
 
   useEffect(() =>{
 
