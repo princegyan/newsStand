@@ -4,14 +4,14 @@ import React from "react"
 
 const Feed = () => {
     const [articles, setAttribute] = useState([])
-    const [period] = useState('30')
+    const [period] = useState([])
 
   useEffect(() =>{
 
     const fetchArticles = async() => {
      
       try {
-        const response = await fetch(`https://api.nytimes.com/svc/mostpopular/v2/viewed/${period}.json?api-key=${process.env.REACT_APP_ARTICLES_API_KEY}`)
+        const response = await fetch(`https://api.nytimes.com/svc/mostpopular/v2/viewed/30.json?api-key=${process.env.REACT_APP_ARTICLES_API_KEY}`)
 
         const articles = await response.json()
         //console.log(articles.results);
